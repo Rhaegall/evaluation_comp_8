@@ -1,7 +1,7 @@
 .container{
     display: flex;
     flex-direction: row;
-    border: green solid;
+    border: blue solid;
     
 }
 .logo{
@@ -41,22 +41,34 @@
 }
 .nav{
     background: pink;
-    width: 160px;
+    width: 200px;
 }
 #navigation{
-    width: 200px;
+    width: 120px;
     list-style: none;
     margin-top 4px: 0;
     padding: 0;
 }
+#container{
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border: green solid;
+}
+.line1{
+
+}
 #book{
-    border: blue solid;
+    border: orange solid;
 }
 .book{
-    height: 80px;
-    width: 8Opx;
+    height: 60px;
+    width: 60px;
 }
 h2{
-    
-}
 
+}
+.element{
+
+}
