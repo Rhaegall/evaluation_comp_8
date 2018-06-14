@@ -1,0 +1,62 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    border: green solid;
+    
+}
+.logo{
+    height: 74px;
+    width: 74px;
+    border: red solid;
+}
+.menu{
+    height: 52px;
+    background-color: aqua; 
+    border-bottom: 2px solid #9EA0A1;
+    padding-bottom: 26px;
+}
+.tag{
+    background-color: chocolate;
+    font: bold 18px arial, serif;
+    list-style-type: none;
+    padding-bottom: 24px;  /*à modifier suivant la taille 2 la police ET la hauteur de l'onglet dans .tag li */
+    border-bottom: 2px solid black;
+}
+.tag li{
+    display: inline;
+    height: 22px; /*à modifier la taille 2 la police pour centrer le texte ds l'onglet */
+    background-color: #F4F9FD;
+    border-radius: 5px solid #9EA0A1;
+}
+.tag li.active{
+    background-color: beige;
+}
+.tag a{
+    color: purple;
+    text-decoration: none;
+    padding: 4px;
+}
+.tag a:hover{
+    background: yellow;
+}
+.nav{
+    background: pink;
+    width: 160px;
+}
+#navigation{
+    width: 200px;
+    list-style: none;
+    margin-top 4px: 0;
+    padding: 0;
+}
+#book{
+    border: blue solid;
+}
+.book{
+    height: 80px;
+    width: 8Opx;
+}
+h2{
+    
+}
+
