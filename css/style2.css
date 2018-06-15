@@ -1,0 +1,32 @@
+body{
+	background: #e5dbd0;
+}
+#logo{
+	display: flex;
+	justify-content: center;
+}
+.logo{
+	margin-top: 20px;
+	height: 100px;
+	width: 100px;
+}
+.m-horizontal{
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+
+}
+.menu{
+
+}
+.m-vertical{
+	
+}
+.container{
+	display: flex;
+	flex-direction: row;
+
+}
+.img{
+
+}
